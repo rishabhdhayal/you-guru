@@ -1,0 +1,72 @@
+
+.home-header {
+    background: linear-gradient(100deg,#C3EDCF, #C3EDCF);
+    /* width: 100vw; */
+    height: 70px;
+    font: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-container {
+    background: #FFFAF4;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Turret Road';
+    
+}
+.header-btn:hover {
+    border-color: white;
+}
+
+.home-heading {
+    padding: 0px;
+    margin: 0px;
+    font-size: 28px;
+
+    font-weight: 600;
+    
+    /* margin-left: 30px; */
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.home-main {
+   height: max-content;
+   width: 100%;
+}
+.img{
+    background-image: url('../../utils/images/organic-flat-people-meditating-illustration_23-2148906556.avif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 70vh;
+    width: auto;
+}
+
+.btn-section{
+    width: 100%;
+    text-align: center;
+}
+.hbtn{
+    padding: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 10px 20px 10px 20px;
+    background-color: rgba(255, 255, 255, 0);
+    font-weight: 600;
+    /* border-radius: 20px; */
+    font-family: 'Turret Road';
+    color: #000000;
+    font-size: 24px;
+    border-color: #ababab;
+    border-width: px;
+    cursor: pointer;
+}
+.hbtn:hover {
+    /* background: #C3EDCF; */
+    color: rgb(0, 0, 0);
+    /* border-width: 1px; */
+    border-color: #C3EDCF;
+}
+
